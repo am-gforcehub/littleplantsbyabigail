@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 
+
 }
 .header
 {
@@ -9,10 +10,16 @@ padding: 0;
 }
 .navbar-style 
 {
-    box-shadow: 0 5px 10px #efefef;
+    box-shadow: 0 5px 10px #85ca98;
+   
 }
 .logo
 {
     height: 250px;
     padding: 10px 5px;
+}
+
+.clearfix 
+{
+    background-color: #85ca98;
 }
