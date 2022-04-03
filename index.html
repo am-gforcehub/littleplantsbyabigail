@@ -23,7 +23,7 @@
            <div class="container">
            <div class="navbar-header">
 
-           <img class="img-fluid" src="/pics/IMG_4550.jpg" alt="Little Plants Logo"/>
+           <img class="img-fluid" src="/pics/IMG_4550.jpg" alt="Logo"/>
            </div>
 
            <nav class="navbar navbar-expand-lg navbar-collapse-right">
@@ -34,9 +34,15 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Seeds</a>
-                  </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Seeds</a>
+                        <ul class="dropdown-menu">
+                         <li><hr class="dropdown-divider"></li>
+                         <li><a class="dropdown-item" href="#">Strawberry</a></li>
+                         <li><hr class="dropdown-divider"></li>
+                         <li><a class="dropdown-item" href="#">Pumpkin</a></li>
+                        </ul>   
+                     </li>  
                   <li class="nav-item">
                     <a class="nav-link" href="#">Planting Tips</a>
                   </li>
@@ -49,26 +55,23 @@
                 </ul>
               </div>
             </div>
-        
-         </nav>  
+          </nav>  
         </header>
+        <br>
+        <br>
 
-        <div class="container">
-         <div class="clearfix">
-             <img  src="/pics/IMG_2594.jpg"class="col-md-6 float-md-end mb-3 ms-md-3" alt="Abigail"/> 
-            <p>
-              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+        <div class="container clearfix">
+         <div class="row">
+             <div class= "col text-left">
+             <img  src="/pics/IMG_2594.jpg"class="img-fluid col-sm-4" alt="Abigail"/> 
+             A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+             <div class="row">
+                <div class= "col text-left">
+                 <p>As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+                 And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
             </p>
-          
-            <p>
-              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-            </p>
-          
-            <p>
-              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-            </p>
-          </div>     
-          </div>
+            </div>    
+        </div>
        
  
 
@@ -76,7 +79,7 @@
 
 
 
-
+        <script src="app.js"></script>
 
 
     
