@@ -1,5 +1,5 @@
 *{
-margin: 0;
+margin: 5px;
 padding: 0;
 
 
@@ -10,16 +10,16 @@ padding: 0;
     box-shadow: 10px 10px 30px #85ca98;
     border-radius: 35px;
     border-top-color: #85ca98;
-    margin: 20px 20px 20px 20px;
+    background-color: #85ca98;
    
 }
-.Logo
+
+.img-fluid
 {
-    height: 15px;
-    padding: 10px 10px;
+width: 75%;
 }
 
-.clearfix 
+.clearfix
 {
     background-color: #85ca98;
     padding: 30px 30px 30px 30px;
@@ -28,6 +28,7 @@ padding: 0;
 
 
  .carousel-inner{
-    height:500px;
+    height: 500px;
     width: 100%;
 }
+

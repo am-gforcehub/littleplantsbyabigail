@@ -3,8 +3,11 @@ var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
   return new bootstrap.Dropdown(dropdownToggleEl)
 })
 
-var myDropdown = document.getElementById('myDropdown')
-myDropdown.addEventListener('show.bs.dropdown', function () {
-//...do something
+var myDropdown = document.getElementsByClassName('.dropdown-toggle')
+myDropdown.addEventListener('show.dropdown', function () {
+
 })
+
+
+
 
